@@ -1,0 +1,22 @@
+{
+  "worlds": {
+    "public": [
+      {
+        "name": "Void Club",
+        "author": "Lycon",
+        "world_id": "wrld_7e10376a-29b6-43af-ac5d-6eb72732e90c:42~private(inviteurl_95dd8c82-968a-4c75-a7f6-711dd98dfac2)",
+        "thumbnail": "void_club.png"
+      },
+      {
+        "name": "Corellia",
+        "author": "Kizzy"
+      }
+    ],
+    "unlisted": [
+      {
+        "name": "VR Plaza Mall And Cinema",
+        "world_id": "wrld_46ea2020-9273-4994-8073-144cb80a2a9e&ref=vrchat.com&instanceId=04~friendsplus)"
+      }
+    ]
+  }
+}
