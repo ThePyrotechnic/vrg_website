@@ -133,20 +133,6 @@ input {
     .is_mobile_device {
         display: none;
     }
-
-    .tool-btn {
-        height: 4em;
-        width: 4em;
-        margin: 2em 2em 2em 0;
-    }
-
-    #select-all {
-        box-shadow: inset 0 0 0 1.6em #000;
-    }
-
-    #deselect-all {
-        box-shadow: inset 0 0 0 0.6em #000;
-    }
 }
 
 @media (min-width: 961px) {
