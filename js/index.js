@@ -6,8 +6,20 @@ function worldClicked(world) {
         win.focus();
 }
 
+function darkModeToggle() {
+    document.body.classList.toggle('body-dark');
+    let btns = document.getElementsByClassName('btn');
+    for (let a = 0; a < btns.length; a++)
+        btns[a].classList.toggle('btn-dark');
+    let titles = document.getElementsByClassName('title-text');
+    for (let a = 0; a < titles.length; a++)
+        titles[a].classList.toggle('title-text-dark');
+    lightbulb = document.getElementById('dark-mode');
+    lightbulb.setAttribute('src', (lightbulb.getAttribute('src') === 'svg/off-24px.svg') ? 'svg/on-24px.svg' : 'svg/off-24px.svg');
+}
+
 function loadJSON(file_path, callback) {
-    var req = new XMLHttpRequest();
+    let req = new XMLHttpRequest();
     req.overrideMimeType("application/json");
     req.open('GET', file_path, true);
     req.onreadystatechange = function () {

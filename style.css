@@ -12,6 +12,10 @@ body {
     min-height: 100vh;
 
     margin: 0;
+    background: #fff;
+}
+.body-dark {
+    background:#000;
 }
 
 input {
@@ -41,14 +45,20 @@ input {
     white-space: nowrap;
     overflow-x: hidden;
 
-    color: #202020;
+    color: #000;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px inset black;
+    border-bottom: 1px inset #000;
 
     margin-bottom: 15px;
 }
+
+.title-text-dark {
+    color: #fff;
+    border-bottom: 1px inset #fff;
+}
+
 
 .thumbnail {
     width: 256px;
@@ -81,14 +91,15 @@ input {
     text-decoration: none;
 }
 
-.btn-selected {
+.btn-dark {
     color: #fff;
     background: #000;
-    border: solid #000 1px;
+    border: solid #fff 1px;
 }
 
-.playback-btn {
-    border: dashed #000 1px;
+.btn-dark:hover {
+    background: #fff;
+    color: #000;
 }
 
 .flex-column {
@@ -114,6 +125,44 @@ input {
     flex-flow: row wrap;
     max-width: calc((12em + 60px) * 5);
     z-index: 5;
+}
+
+.tool-btn {
+    height: 2em;
+    width: 2em;
+    margin: 1em 1em 1em 0;
+    cursor: pointer;
+}
+
+#dark-mode {
+    width: 64px;
+    height: 64px;
+}
+
+#tool-overlay {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+
+    z-index: 10;
+
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+#tool-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-start;
+
+    width: 100%;
 }
 
 @media (min-width: 320px) {
