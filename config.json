@@ -8,14 +8,13 @@
         "thumbnail": "void_club.png"
       },
       {
-        "name": "Corellia",
-        "author": "Kizzy"
+        "name": "Example map",
+        "author": "Author"
       }
     ],
     "unlisted": [
       {
-        "name": "VR Plaza Mall And Cinema",
-        "world_id": "wrld_46ea2020-9273-4994-8073-144cb80a2a9e&ref=vrchat.com&instanceId=04~friendsplus)"
+        "name": "Placeholder"
       }
     ]
   }
