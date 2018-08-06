@@ -2,19 +2,30 @@
   "worlds": {
     "public": [
       {
-        "name": "Void Club",
-        "author": "Lycon",
-        "world_id": "wrld_7e10376a-29b6-43af-ac5d-6eb72732e90c:42~private(inviteurl_95dd8c82-968a-4c75-a7f6-711dd98dfac2)",
-        "thumbnail": "void_club.png"
+        "name": "Island Getaway",
+        "author": "FlameG102",
+        "world_id": "wrld_c00996e5-4c7d-4b84-b329-68d3bf1569ed&ref=vrchat.com&instanceId=04~friendsplus)",
+        "thumbnail": "island512.png"
       },
       {
-        "name": "Example map",
-        "author": "Author"
+        "name": "GJ-bu (GJ Club)",
+        "author": "lf_yt",
+        "world_id": "wrld_7909d03c-21af-45af-85dc-4ea2ea0b72a3",
+        "thumbnail": "club512.png"
       }
     ],
-    "unlisted": [
+    "private": [
       {
-        "name": "Placeholder"
+        "name": "VR Plaza Mall and Cinema",
+        "author": "FlameG102",
+        "world_id": "wrld_46ea2020-9273-4994-8073-144cb80a2a9e&ref=vrchat.com&instanceId=04~friendsplus)",
+        "thumbnail": "plaza512.png"
+      },
+      {
+        "name": "Harbl Hotel",
+        "author": "fanisk",
+        "world_id": "wrld_8f5ad492-dd43-4845-bc38-9bd73d73ce61&ref=vrchat.com&instanceId=1",
+        "thumbnail": "harbl512.png"
       }
     ]
   }
