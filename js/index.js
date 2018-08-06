@@ -14,7 +14,7 @@ function darkModeToggle() {
     let titles = document.getElementsByClassName('title-text');
     for (let a = 0; a < titles.length; a++)
         titles[a].classList.toggle('title-text-dark');
-    lightbulb = document.getElementById('dark-mode');
+    let lightbulb = document.getElementById('dark-mode');
     lightbulb.setAttribute('src', (lightbulb.getAttribute('src') === 'svg/off-24px.svg') ? 'svg/on-24px.svg' : 'svg/off-24px.svg');
 }
 
